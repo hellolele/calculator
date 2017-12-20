@@ -41,10 +41,10 @@ except:
 if __name__=='__main__':
 	users=userdata.keys()
 	def shehuishui(gz):
-		if gz<config['JiShuL ']:
-			return(config['JiShuL ']*0.165)
-		elif gz>config['JiShuH ']:
-			return(config['JiShuH ']*0.165)
+		if gz<config['JiShuL']:
+			return(config['JiShuL']*0.165)
+		elif gz>config['JiShuH']:
+			return(config['JiShuH']*0.165)
 		else:
 			return(gz*0.165)
 	def Yns(gz):
